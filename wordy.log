@@ -1,0 +1,84 @@
+    148.0 [ main       ] Started
+    148.0 [ main       ] 10 logical processes
+    148.2 [ main       ] Logical process F started
+    148.2 [ main       ] Logical process I started
+    148.2 [ main       ] Logical process J started
+    148.2 [ main       ] Logical process K started
+    148.2 [ main       ] Logical process U started
+    148.2 [ main       ] Logical process V started
+    148.2 [ main       ] Logical process W started
+    148.2 [ main       ] Logical process X started
+    148.2 [ main       ] Logical process Y started
+    148.2 [ main       ] Logical process Z started
+    148.2 [ A          ] Staff::Member started, 10 branches
+    148.2 [ B          ] Staff::Member started, 10 branches
+    398.2 [ main       ] Process `F` statistics:
+    398.3 [ main       ]   Idle        0.00 %           0
+    398.3 [ main       ]     Busy     11.32 %         244
+    398.3 [ main       ]       Done   81.32 %        1554
+    398.3 [ main       ]       Deny   18.68 %         357
+    398.3 [ main       ] Process `I` statistics:
+    398.3 [ main       ]   Idle        0.00 %           0
+    398.3 [ main       ]     Busy      7.24 %         152
+    398.3 [ main       ]       Done   80.13 %        1561
+    398.3 [ main       ]       Deny   19.87 %         387
+    398.3 [ main       ] Process `J` statistics:
+    398.3 [ main       ]   Idle        0.00 %           0
+    398.3 [ main       ]     Busy      9.12 %         204
+    398.3 [ main       ]       Done   79.23 %        1610
+    398.3 [ main       ]       Deny   20.77 %         422
+    398.3 [ main       ] Process `K` statistics:
+    398.3 [ main       ]   Idle        0.00 %           0
+    398.3 [ main       ]     Busy     12.75 %         284
+    398.3 [ main       ]       Done   81.16 %        1577
+    398.3 [ main       ]       Deny   18.84 %         366
+    398.3 [ main       ] Process `U` statistics:
+    398.3 [ main       ]   Idle        0.00 %           0
+    398.3 [ main       ]     Busy      8.89 %         187
+    398.3 [ main       ]       Done   81.73 %        1566
+    398.3 [ main       ]       Deny   18.27 %         350
+    398.3 [ main       ] Process `V` statistics:
+    398.3 [ main       ]   Idle        0.00 %           0
+    398.3 [ main       ]     Busy      8.70 %         193
+    398.3 [ main       ]       Done   80.85 %        1638
+    398.3 [ main       ]       Deny   19.15 %         388
+    398.3 [ main       ] Process `W` statistics:
+    398.3 [ main       ]   Idle        0.00 %           0
+    398.3 [ main       ]     Busy     10.51 %         232
+    398.3 [ main       ]       Done   79.44 %        1569
+    398.3 [ main       ]       Deny   20.56 %         406
+    398.3 [ main       ] Process `X` statistics:
+    398.3 [ main       ]   Idle        0.00 %           0
+    398.3 [ main       ]     Busy     10.11 %         227
+    398.3 [ main       ]       Done   80.04 %        1616
+    398.3 [ main       ]       Deny   19.96 %         403
+    398.3 [ main       ] Process `Y` statistics:
+    398.3 [ main       ]   Idle        0.00 %           0
+    398.3 [ main       ]     Busy      8.86 %         200
+    398.3 [ main       ]       Done   80.42 %        1655
+    398.3 [ main       ]       Deny   19.58 %         403
+    398.3 [ main       ] Process `Z` statistics:
+    398.3 [ main       ]   Idle        0.00 %           0
+    398.3 [ main       ]     Busy     12.18 %         277
+    398.3 [ main       ]       Done   79.87 %        1595
+    398.3 [ main       ]       Deny   20.13 %         402
+    398.3 [ main       ] R/W statistics:
+    398.3 [ main       ]  1544 R     17 W
+    398.3 [ main       ]  1597 R     13 W
+    398.3 [ main       ]  1554 R     23 W
+    398.3 [ main       ]  1550 R     16 W
+    398.3 [ main       ]  1610 R     28 W
+    398.3 [ main       ]  1554 R     15 W
+    398.3 [ main       ]  1598 R     18 W
+    398.3 [ main       ]  1639 R     16 W
+    398.3 [ main       ]  1578 R     17 W
+    398.4 [ A          ] Thread `A` statistics:
+    398.4 [ A          ]   Idle        0.00 %           0
+    398.4 [ A          ]     Busy     10.28 %        1141
+    398.4 [ A          ]       Done   80.66 %        8035
+    398.4 [ A          ]       Deny   19.34 %        1926
+    398.3 [ B          ] Thread `B` statistics:
+    398.3 [ B          ]   Idle        1.46 %         162
+    398.3 [ B          ]     Busy      9.69 %        1059
+    398.3 [ B          ]       Done   80.15 %        7908
+    398.3 [ B          ]       Deny   19.85 %        1958

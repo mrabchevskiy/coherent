@@ -1,0 +1,24 @@
+ digraph Cached {
+
+   graph [ label="Finite State Graph W
+ ", labelloc=t, fontsize=20, labeldistance=2 ]
+   edge  [ color=gray40, labelfontcolor=gray20, labeldistance=0.5 ]
+   size = "12,12";
+   F   [shape=circle pos="1,1!", style=filled, fillcolor=yellow]
+   R   [shape=circle pos="2,1!", style=filled, fillcolor=yellow]
+   f   [shape=circle pos="1,2!", style=filled, fillcolor=yellow]
+   r   [shape=circle pos="2,2!", style=filled, fillcolor=yellow]
+   I   [shape=circle pos="1,3!", style=filled, fillcolor=yellow]
+   W   [shape=circle pos="2,3!", style=filled, fillcolor=yellow]
+   W   -> I   [ color=orangered, style=bold, label="w", fontsize=14, fontcolor=crimson, labeldistance=0.5 ]
+   I   -> W   [ color=limegreen, style=bold, label="W", fontsize=14, fontcolor=darkgreen, labeldistance=0.5 ]
+   r   -> f   [ color=limegreen, style=bold, label="W*", fontsize=14, fontcolor=darkgreen, labeldistance=0.5 ]
+   R   -> F   [ color=limegreen, style=bold, label="W*", fontsize=14, fontcolor=darkgreen, labeldistance=0.5 ]
+   r   -> I   [ color=gray80, label="r0", fontsize=14, fontcolor=gray70, labeldistance=0.5 ]
+   R   -> r   [ color=gray80, label="r-", fontsize=14, fontcolor=gray70, labeldistance=0.5 ]
+   f   -> I   [ color=gray80, label="r0", fontsize=14, fontcolor=gray70, labeldistance=0.5 ]
+   F   -> f   [ color=gray80, label="r-", fontsize=14, fontcolor=gray70, labeldistance=0.5 ]
+   I   -> r   [ color=gray80, label="R+*", fontsize=14, fontcolor=gray70, labeldistance=0.5 ]
+   r   -> R   [ color=gray80, label="R+", fontsize=14, fontcolor=gray70, labeldistance=0.5 ]
+
+ }
